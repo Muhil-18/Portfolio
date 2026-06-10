@@ -13,12 +13,12 @@ export function Resume() {
           <SectionHeading title="Resume" className="mb-0 !items-start" />
           <div className="flex items-center gap-4 mt-6 md:mt-0">
             <Button variant="outline" asChild>
-              <a href="/Muhilan_S_Resume.pdf" target="_blank" rel="noreferrer">
+              <a href="/assets/resume/resume.pdf" target="_blank" rel="noreferrer">
                 <FiMaximize2 /> View Full Screen
               </a>
             </Button>
             <Button variant="primary" asChild>
-              <a href="/Muhilan_S_Resume.pdf" download>
+              <a href="/assets/resume/resume.pdf" download>
                 <FiDownload /> Download Resume
               </a>
             </Button>
@@ -27,7 +27,7 @@ export function Resume() {
 
         <Card className="p-2 md:p-4 bg-white/5 dark:bg-white/5 border-black/10 dark:border-white/10 h-[600px] md:h-[800px] overflow-hidden">
           <iframe 
-            src="/Muhilan_S_Resume.pdf#toolbar=0" 
+            src="/assets/resume/resume.pdf#toolbar=0" 
             className="w-full h-full rounded-lg border-0 bg-white"
             title="S Muhilan Resume"
           />

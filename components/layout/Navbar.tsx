@@ -103,7 +103,7 @@ export function Navbar() {
             )}
             
             <Button variant="outline" size="sm" className="gap-2" asChild>
-              <a href="/Muhilan_S_Resume.pdf" download>
+              <a href="/assets/resume/resume.pdf" download>
                 <FiDownload />
                 Resume
               </a>
@@ -151,7 +151,7 @@ export function Navbar() {
                 </Link>
               ))}
               <Button variant="primary" className="mt-4 gap-2 w-full" asChild>
-                <a href="/Muhilan_S_Resume.pdf" download>
+                <a href="/assets/resume/resume.pdf" download>
                   <FiDownload />
                   Download Resume
                 </a>

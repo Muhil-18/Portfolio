@@ -58,7 +58,8 @@ export const EXPERIENCE: Experience[] = [
     ],
     outcomes: [
       "Delivered a functional forecasting system; gained hands-on ML project experience"
-    ]
+    ],
+    link: "/assets/internships/Muhilan internship.pdf"
   },
   {
     company: "CDAC Chennai & SRM IST",
@@ -85,12 +86,14 @@ export const CERTIFICATIONS: Certification[] = [
   {
     name: "Cloud Computing Bootcamp",
     provider: "CDAC Chennai & SRM IST",
-    date: "Feb 2026"
+    date: "Feb 2026",
+    verifyUrl: "/assets/certificates/C DAC CERTIFICATE.pdf"
   },
   {
     name: "Introduction to Database Systems",
     provider: "NPTEL",
-    date: "Jan 2025"
+    date: "Jan 2025",
+    verifyUrl: "/assets/certificates/IntroductiontoDatabaseSystems.pdf"
   }
 ];
 

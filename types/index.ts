@@ -17,6 +17,7 @@ export interface Experience {
   location?: string;
   responsibilities: string[];
   outcomes: string[];
+  link?: string;
 }
 
 export interface Certification {

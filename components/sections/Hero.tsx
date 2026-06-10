@@ -93,7 +93,7 @@ export function Hero() {
             className="flex flex-wrap items-center gap-4 mb-10"
           >
             <Button variant="primary" asChild>
-              <a href="/Muhilan_S_Resume.pdf" download>
+              <a href="/assets/resume/resume.pdf" download>
                 <FiDownload />
                 Download Resume
               </a>
@@ -133,10 +133,13 @@ export function Hero() {
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-secondary animate-spin-slow opacity-70 blur-md" />
             
             <div className="absolute inset-2 rounded-full overflow-hidden bg-surface-light dark:bg-surface-dark border-2 border-black/5 dark:border-white/10 z-10 flex items-center justify-center">
-              {/* Fallback image placeholder */}
-              <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                 <span className="text-4xl font-display font-bold opacity-50 text-textcol-light dark:text-textcol-dark">SM</span>
-              </div>
+              <Image
+                src="/assets/profile/profile.jpg"
+                alt="S Muhilan"
+                fill
+                className="object-cover"
+                unoptimized
+              />
             </div>
           </div>
 

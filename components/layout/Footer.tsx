@@ -39,7 +39,7 @@ export function Footer() {
               </a>
             </div>
             <Button variant="primary" size="sm" className="gap-2" asChild>
-              <a href="/Muhilan_S_Resume.pdf" download>
+              <a href="/assets/resume/resume.pdf" download>
                 <FiDownload size={16} /> Download Resume
               </a>
             </Button>
